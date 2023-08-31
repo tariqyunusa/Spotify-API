@@ -9,7 +9,7 @@ body {
   font-family: Poppins;
 }
 .container {
-  width: 40rem;
+  width: 100%;
   height: 100vh;
   margin: auto;
   display: grid;
@@ -21,6 +21,8 @@ body {
   border: none;
   border-radius: 2rem;
   color: #fff;
+  font-size: 14px;
+  text-decoration: none;
 }
 a {
   color: #fff;
@@ -73,7 +75,7 @@ a {
   width: 100%;
   height: 12rem;
   display: flex;
-  gap: 2rem;
+  gap: 1rem;
 }
 .img-container {
   width: 200px;

@@ -20,6 +20,10 @@ body {
   padding: 15px 20px;
   border: none;
   border-radius: 2rem;
+  color: #fff;
+}
+a {
+  color: #fff;
 }
 .everything {
   width: 100%;

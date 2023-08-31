@@ -15,6 +15,12 @@ body {
   display: grid;
   place-items: center;
 }
+.container a {
+  background: #1db954;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 2rem;
+}
 .everything {
   width: 100%;
   height: 100vh;

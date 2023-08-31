@@ -4,7 +4,7 @@ import "./App.css";
 import logo from "../src/assets/Spotify_Logo_RGB_Green.png";
 function App() {
   const CLIENT_ID = "b406d0b20a0d44ae9f9a05b5882009b6";
-  const REDIRECT_URI = "http://127.0.0.1:5173/";
+  const REDIRECT_URI = "https://most-played-ruddy.vercel.app";
   const AUTH_ENDPOINT = "https://accounts.spotify.com/authorize";
   const RESPONSE_TYPE = "token";
 

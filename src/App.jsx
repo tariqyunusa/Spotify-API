@@ -61,7 +61,7 @@ function App() {
         <a
           href={`${AUTH_ENDPOINT}?client_id=${CLIENT_ID}&redirect_uri=${REDIRECT_URI}&response_type=${RESPONSE_TYPE}&scope=user-top-read`}
         >
-          Login to Spotify
+          login to Spotify
         </a>
       ) : (
         <div className="everything">
@@ -91,8 +91,7 @@ function App() {
                     <h3>{artist.name}</h3>
                     <h4>Spotify Popularity: {artist.popularity}</h4>
                     <p>
-                      LIsten to{" "}
-                      <button href={artist.external_urls}>{artist.name}</button>
+                      LIsten to <a href={artist.external_urls}>{artist.name}</a>
                     </p>
                   </div>
                 </div>

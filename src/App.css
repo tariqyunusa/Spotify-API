@@ -93,3 +93,10 @@ a {
   flex-direction: column;
   justify-content: space-around;
 }
+.details a {
+  padding: 15px 20px;
+  border: none;
+  border-radius: 2rem;
+  background: #1db954;
+  color: #fff;
+}

@@ -78,8 +78,8 @@ a {
   gap: 1rem;
 }
 .img-container {
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   overflow: hidden;
 }
 .img-container img {
@@ -94,7 +94,7 @@ a {
   justify-content: space-around;
 }
 .details a {
-  padding: 15px 20px;
+  padding: 5px 8px;
   border: none;
   border-radius: 2rem;
   background: #1db954;
